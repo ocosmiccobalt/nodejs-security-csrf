@@ -16,4 +16,5 @@ app.use(express.static('public'));
 
 app.use(demoRoutes);
 
+// Visit "localhost:8000/transaction" - i.e. the attacker's site!
 app.listen(8000);
